@@ -4,7 +4,7 @@ import { ClerkProvider, useAuth } from "@clerk/nextjs";
 import { ConvexProviderWithClerk } from "convex/react-clerk";
 import { AuthLoading, Authenticated, ConvexReactClient } from "convex/react";
 import React from "react";
-import Loading from "@/components/auth/loading";
+import Loading from "@/components/auth/Loading";
 
 interface ConvexClientProvider {
   children: React.ReactNode;
